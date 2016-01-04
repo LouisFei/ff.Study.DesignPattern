@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace ff.Study.DesignPattern
 {
-    class Program
+    public class Test
     {
-        static void Main(string[] args)
+        public int Add(int a, int b)
         {
+            return a + b;
         }
     }
 }
