@@ -46,6 +46,7 @@
     <Compile Include="Concept\Delegating\MulticastDelegateInvoker.cs" />
     <Compile Include="Concept\Delegating\InvokeList.cs" />
     <Compile Include="Concept\Delegating\OverloadableDelegateInvoker.cs" />
+    <Compile Include="Concept\Generics\RawGenericFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test.cs" />
   </ItemGroup>
