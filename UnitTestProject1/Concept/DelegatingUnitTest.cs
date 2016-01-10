@@ -15,7 +15,29 @@ namespace UnitTestProject1.Concept
             Assert.AreEqual<string>("method", asyncInvoker.Output[0]);
             Assert.AreEqual<string>("fast", asyncInvoker.Output[1]);
             Assert.AreEqual<string>("slow", asyncInvoker.Output[2]);
+        }
 
+        [TestMethod]
+        public void InvokeListTest()
+        {
+            string message = string.Empty;
+            InvokeList list = new InvokeList();
+            list.Invoke();
+            Assert.AreEqual<string>("hello,world", list[0] + list[1] + list[2]);
+        }
+
+        [TestMethod]
+        public void MulticastDelegateTest()
+        {
+            MulticasDelegateInvoker invoker = new MulticasDelegateInvoker();
+            Assert.AreEqual<string>("hello,world", invoker[0] + invoker[1] + invoker[2]);
+        }
+
+        [TestMethod]
+        public void AnonymousMethodTest()
+        {
+            AnonymousMethod invoker = new AnonymousMethod();
+            Assert.AreEqual<string>("hello,world", invoker[0] + invoker[1] + invoker[2]);
         }
     }
 }

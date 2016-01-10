@@ -41,7 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Concept\Delegating\AnonymousMethod.cs" />
     <Compile Include="Concept\Delegating\AsyncInvoker.cs" />
+    <Compile Include="Concept\Delegating\MulticastDelegateInvoker.cs" />
+    <Compile Include="Concept\Delegating\InvokeList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test.cs" />
   </ItemGroup>
