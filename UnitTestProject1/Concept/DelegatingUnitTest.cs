@@ -1,6 +1,8 @@
 ﻿using System.Threading;
 using ff.Study.DesignPattern.Concept.Delegating;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace UnitTestProject1.Concept
 {
@@ -38,6 +40,18 @@ namespace UnitTestProject1.Concept
         {
             AnonymousMethod invoker = new AnonymousMethod();
             Assert.AreEqual<string>("hello,world", invoker[0] + invoker[1] + invoker[2]);
+        }
+
+        [TestMethod]
+        public void OverloadableDelegateInvokerTest()
+        {
+            OverloadableDelegateInvoker invoker = new OverloadableDelegateInvoker();
+            IDictionary<string, int> data = new Dictionary<string, int>();
+            invoker.Memo(1, 2, data);
+
+            Assert.AreEqual<int>(1 + 2, data["A"]);
+            Assert.AreEqual<int>(1 - 2, data["S"]);
+            Assert.AreEqual<int>(1 * 2, data["M"]);
         }
     }
 }
