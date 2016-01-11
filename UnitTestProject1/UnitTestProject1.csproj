@@ -53,6 +53,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Concept\AttributeUnitTest.cs" />
     <Compile Include="Concept\DelegatingUnitTest.cs" />
     <Compile Include="Concept\GenericsUnitTest.cs" />
     <Compile Include="UnitTest1.cs" />

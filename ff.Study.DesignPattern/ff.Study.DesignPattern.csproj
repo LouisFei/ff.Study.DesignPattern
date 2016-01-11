@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Concept\Attribute\AttributedBuilder.cs" />
     <Compile Include="Concept\Delegating\AnonymousMethod.cs" />
     <Compile Include="Concept\Delegating\AsyncInvoker.cs" />
     <Compile Include="Concept\Delegating\MulticastDelegateInvoker.cs" />
