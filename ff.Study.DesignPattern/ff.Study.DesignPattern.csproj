@@ -49,7 +49,9 @@
     <Compile Include="Concept\Delegating\OverloadableDelegateInvoker.cs" />
     <Compile Include="Concept\Generics\GenericAdapter.cs" />
     <Compile Include="Concept\Generics\RawGenericFactory.cs" />
+    <Compile Include="Concept\Indexer\DelegateIndexRule.cs" />
     <Compile Include="Concept\Indexer\SingleColumnCollection.cs" />
+    <Compile Include="Concept\Indexer\UnionIndex.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test.cs" />
   </ItemGroup>
