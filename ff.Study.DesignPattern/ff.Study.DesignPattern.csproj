@@ -52,6 +52,9 @@
     <Compile Include="Concept\Indexer\DelegateIndexRule.cs" />
     <Compile Include="Concept\Indexer\SingleColumnCollection.cs" />
     <Compile Include="Concept\Indexer\UnionIndex.cs" />
+    <Compile Include="Concept\Operator\Adaptee.cs" />
+    <Compile Include="Concept\Operator\ErrorEntity.cs" />
+    <Compile Include="Concept\Operator\Season.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test.cs" />
   </ItemGroup>

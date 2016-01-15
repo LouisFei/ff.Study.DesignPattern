@@ -57,6 +57,7 @@
     <Compile Include="Concept\DelegatingUnitTest.cs" />
     <Compile Include="Concept\GenericsUnitTest.cs" />
     <Compile Include="Concept\IndexerUnitTest.cs" />
+    <Compile Include="Concept\OperatorUnitTest.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
