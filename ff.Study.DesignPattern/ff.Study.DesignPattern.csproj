@@ -49,6 +49,9 @@
     <Compile Include="Concept\Delegating\MulticastDelegateInvoker.cs" />
     <Compile Include="Concept\Delegating\InvokeList.cs" />
     <Compile Include="Concept\Delegating\OverloadableDelegateInvoker.cs" />
+    <Compile Include="Concept\DependencyInjection\Example1\Example1.cs" />
+    <Compile Include="Concept\DependencyInjection\Example2\Example2.cs" />
+    <Compile Include="Concept\DependencyInjection\Example3\Example3.cs" />
     <Compile Include="Concept\Generics\GenericAdapter.cs" />
     <Compile Include="Concept\Generics\RawGenericFactory.cs" />
     <Compile Include="Concept\Indexer\DelegateIndexRule.cs" />
