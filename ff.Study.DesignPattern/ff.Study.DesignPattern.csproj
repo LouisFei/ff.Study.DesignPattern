@@ -52,6 +52,8 @@
     <Compile Include="Concept\Indexer\DelegateIndexRule.cs" />
     <Compile Include="Concept\Indexer\SingleColumnCollection.cs" />
     <Compile Include="Concept\Indexer\UnionIndex.cs" />
+    <Compile Include="Concept\Iterating\CompositeIterator.cs" />
+    <Compile Include="Concept\Iterating\RawIterator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test.cs" />
   </ItemGroup>
