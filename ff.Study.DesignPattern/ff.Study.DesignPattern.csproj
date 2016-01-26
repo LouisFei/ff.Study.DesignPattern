@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\IObjectBuilder.cs" />
+    <Compile Include="Common\TypeCreator.cs" />
     <Compile Include="Concept\Attribute\AttributedBuilder.cs" />
     <Compile Include="Concept\Configurating\NamedConfigurationElementBase.cs" />
     <Compile Include="Concept\Delegating\AnonymousMethod.cs" />
