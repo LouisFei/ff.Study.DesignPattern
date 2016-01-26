@@ -99,7 +99,7 @@ namespace ff.Study.DesignPattern.Concept.Iterating
             Type type = data.GetType();
 
             //是否为Stack
-            if (type.IsAssignableFrom(typeof(Stack)) || type.IsAssignableFrom(typeof(Stack<Object>)))
+            if (type.IsAssignableFrom(typeof(Stack)) || type.IsAssignableFrom(typeof(Stack<ObjectWithName>)))
             {
                 return DynamicInvokeEnumerator(data);
             }
