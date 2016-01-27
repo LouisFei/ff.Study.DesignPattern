@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\GenericCache.cs" />
     <Compile Include="Common\IObjectBuilder.cs" />
     <Compile Include="Common\TypeCreator.cs" />
     <Compile Include="Concept\Attribute\AttributedBuilder.cs" />

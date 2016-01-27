@@ -54,6 +54,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Common\CacheUnitTest.cs" />
     <Compile Include="Concept\AttributeUnitTest.cs" />
     <Compile Include="Concept\ConfigurationBrokerUnitTest.cs" />
     <Compile Include="Concept\DelegatingUnitTest.cs" />
