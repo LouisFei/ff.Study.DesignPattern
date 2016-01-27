@@ -66,12 +66,12 @@
     <Compile Include="Concept\Operator\Adaptee.cs" />
     <Compile Include="Concept\Operator\ErrorEntity.cs" />
     <Compile Include="Concept\Operator\Season.cs" />
+    <Compile Include="Creational\FactoryMethod\Example1\code.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral\Mediator\" />
-    <Folder Include="Creational\" />
     <Folder Include="Structual\" />
   </ItemGroup>
   <ItemGroup>
