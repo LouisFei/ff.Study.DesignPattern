@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ff.Study.DesignPattern.Creational.FactoryMethod.Example1
+namespace ff.Study.DesignPattern.Creational.FactoryMethod.SimpleFactory
 {
     public interface IProduct { }
     public class ConcreteProductA : IProduct { }
 
     public class ConcreteProductB : IProduct { }
 
-    public class Factory
+    /// <summary>
+    /// 简单工厂
+    /// </summary>
+    public class SimpleFactory
     {
         public IProduct Create()
         {
@@ -25,7 +28,10 @@ namespace ff.Study.DesignPattern.Creational.FactoryMethod.Example1
         B
     }
 
-    public static class ProductFactory
+    /// <summary>
+    /// 参数化工厂
+    /// </summary>
+    public static class ParametricProductFactory
     {
         public static IProduct Create(Category category)
         {

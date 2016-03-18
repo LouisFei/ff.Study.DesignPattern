@@ -1,16 +1,19 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ff.Study.DesignPattern.Creational.FactoryMethod.Example1;
+using ff.Study.DesignPattern.Creational.FactoryMethod.SimpleFactory;
 
 namespace UnitTestProject1.Creational
 {
     [TestClass]
     public class FactoryMethodUnitTest
     {
+        /// <summary>
+        /// 可以按照要求生成抽象类型，但具体实例化哪个类型由工厂决定
+        /// </summary>
         [TestMethod]
         public void Example1Test()
         {
-            Factory factory = new Factory();
+            SimpleFactory factory = new SimpleFactory();
             IProduct product = factory.Create();
             Assert.AreEqual<Type>(product.GetType(), typeof(ConcreteProductA));
         }
@@ -21,9 +24,11 @@ namespace UnitTestProject1.Creational
         [TestMethod]
         public void StaticFactoryTest()
         {
-            IProduct product = ProductFactory.Create(Category.B);
+            IProduct product = ParametricProductFactory.Create(Category.B);
             Assert.IsNotNull(product);
             Assert.AreEqual<Type>(typeof(ConcreteProductB), product.GetType());
         }
+
+        
     }
 }

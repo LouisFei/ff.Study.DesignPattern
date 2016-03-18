@@ -65,6 +65,7 @@
     <Compile Include="Concept\IteratingUnitTest.cs" />
     <Compile Include="Concept\OperatorUnitTest.cs" />
     <Compile Include="Creational\FactoryMethodUnitTest.cs" />
+    <Compile Include="Creational\FactoryMethodUnitTest2.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
