@@ -68,4 +68,11 @@ namespace ff.Study.DesignPattern.Creational.FactoryMethod.ClassicsDefine.ConfigB
             return factory.Create();
         }
     }
+
+    /*
+     P85
+     这样，即便在系统上线后，如果需要修改IFactory的具体类型，一样可以通过增加新的程序集，在生产环境中更新相关IFactory需要使用的具体工厂类型。
+     这种方式下，客户程序成为一个可以动态加载的框架，外部机制很容易通过配置将新完成的程序集部署到运行环境中，
+     而在经典的设计模式实现中，如果需要把模式工程化，很多时候需要借助外部的配置机制。
+     */
 }
