@@ -70,6 +70,7 @@
     <Compile Include="Creational\FactoryMethod\ClassicsDefine\Assembler\Assembler.cs" />
     <Compile Include="Creational\FactoryMethod\ClassicsDefine\ConfigBased\class1.cs" />
     <Compile Include="Creational\FactoryMethod\ClassicsDefine\Define.cs" />
+    <Compile Include="Creational\FactoryMethod\DelegateFactory\Class1.cs" />
     <Compile Include="Creational\FactoryMethod\GenericFactory\Class1.cs" />
     <Compile Include="Creational\FactoryMethod\SimpleFactory\SimpleFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,7 +82,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="Creational\FactoryMethod\DelegateFactory\readme.md" />
     <None Include="Creational\FactoryMethod\GenericFactory\readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Creational\FactoryMethod\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
