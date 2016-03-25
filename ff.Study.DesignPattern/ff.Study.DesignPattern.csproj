@@ -78,6 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral\Mediator\" />
+    <Folder Include="Creational\Singleton\" />
     <Folder Include="Structual\" />
   </ItemGroup>
   <ItemGroup>
