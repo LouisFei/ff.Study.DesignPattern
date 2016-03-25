@@ -66,6 +66,7 @@
     <Compile Include="Concept\Operator\Adaptee.cs" />
     <Compile Include="Concept\Operator\ErrorEntity.cs" />
     <Compile Include="Concept\Operator\Season.cs" />
+    <Compile Include="Creational\FactoryMethod\BatchFactory\Class1.cs" />
     <Compile Include="Creational\FactoryMethod\ClassicsDefine\Assembler\Assembler.cs" />
     <Compile Include="Creational\FactoryMethod\ClassicsDefine\ConfigBased\class1.cs" />
     <Compile Include="Creational\FactoryMethod\ClassicsDefine\Define.cs" />
