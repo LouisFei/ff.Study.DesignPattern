@@ -78,13 +78,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral\Mediator\" />
-    <Folder Include="Creational\Singleton\" />
     <Folder Include="Structual\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="Creational\FactoryMethod\DelegateFactory\readme.md" />
     <None Include="Creational\FactoryMethod\GenericFactory\readme.md" />
+    <None Include="Creational\Singleton\readme.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Creational\FactoryMethod\readme.txt" />
