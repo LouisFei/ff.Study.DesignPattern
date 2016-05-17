@@ -73,6 +73,7 @@
     <Compile Include="Creational\FactoryMethod\DelegateFactory\Class1.cs" />
     <Compile Include="Creational\FactoryMethod\GenericFactory\Class1.cs" />
     <Compile Include="Creational\FactoryMethod\SimpleFactory\SimpleFactory.cs" />
+    <Compile Include="Creational\Singleton\Classics\Counter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test.cs" />
   </ItemGroup>

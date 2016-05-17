@@ -31,3 +31,12 @@ public class Singleton
 	}
 }
 ```
+
+##线程安全的Singleton
+```C#
+class Singleton
+{
+	private Singleton(){}
+	public static readonly Singleton Instance = new Singleton();
+}
+```

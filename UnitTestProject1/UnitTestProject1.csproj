@@ -68,6 +68,7 @@
     <Compile Include="Creational\FactoryMethodUnitTest2.cs" />
     <Compile Include="Creational\FactoryMethodUnitTest4.cs" />
     <Compile Include="Creational\FactoryMethodUnitTest3.cs" />
+    <Compile Include="Creational\SingletonUnitTest.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
