@@ -84,6 +84,7 @@
     <None Include="app.config" />
     <None Include="Creational\FactoryMethod\DelegateFactory\readme.md" />
     <None Include="Creational\FactoryMethod\GenericFactory\readme.md" />
+    <None Include="Creational\Singleton\Classics\readme.md" />
     <None Include="Creational\Singleton\readme.md" />
   </ItemGroup>
   <ItemGroup>
